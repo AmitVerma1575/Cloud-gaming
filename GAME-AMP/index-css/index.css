@@ -1,0 +1,439 @@
+*{margin: 0px;
+padding: 0px;}
+
+/* nav bar  */
+.menu img{width: 24px;}
+
+.nav-logo img{width: 60px;}
+
+.link-1{font-weight: 700;
+text-decoration: none;
+color: white;
+padding: 15px;
+font-family: 'Play',sans-serif;
+}
+
+.navbar-head{color: white;
+font-size:25px;
+text-decoration: none;
+margin-left:1rem;}
+
+.dropdown-item-1{color: white;
+text-decoration: none;
+font-weight: 500;
+display: block;
+text-align: center;
+padding: 5px;} 
+
+.dropdown-item-1:hover{color:#1bc2ca;}
+
+.navbar-head:hover{color: white;}
+
+.link-1:hover{color: #1bc2ca;}
+
+.lnk a{background-color:transparent; 
+    padding: 12px;
+color: #1bc2ca;
+text-decoration: none;
+font-weight: 800;
+border: 2px solid #1bc2ca;
+border-radius: 9px;
+font-size: 12px;}
+
+.lnk a:hover{background-color: #1bc2ca;
+color: white;
+transition: .5s;}
+
+/* Image slider and text  start*/
+
+.slides-1{width: 100%;
+height: 700px;
+object-fit: cover;
+filter: opacity(0.27);}
+
+.carousel-control-next-icon:hover{padding:25px;}
+.carousel-control-prev-icon:hover{padding: 25px;}
+
+
+.carousel-caption h5{color: #1bc2ca;
+    font-size: 1.50rem;
+    cursor: pointer;
+font-weight: 500;}
+.carousel-caption h1{font-size: 5rem;
+    cursor:pointer;
+font-weight: 700;
+}
+
+.carousel-caption p{font-size: 1.15rem;
+margin-top:40px;
+cursor: pointer;}
+
+.btn-play a{border: 3px solid #1bc2ca;
+    margin-top: 40px;
+padding: 15px;
+width: 130px; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 120px;
+border-radius: 10px;
+color:#1bc2ca;
+font-weight: 800;
+text-decoration: none;}
+
+/* .btn-play a:hover{ color: azure;} */
+
+.btn-play a:hover {background-color: #1bc2ca; 
+    transition: .5s;
+    color: azure;}
+
+    /* game controls */
+    .type-1 h1{text-align: center;
+padding-top:5rem;
+color: white;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.images img{width: 100%;
+margin-top:2rem;
+filter: blur(3px);
+border-radius: 20px;
+display: block;}
+
+.connect-link a{text-decoration: none;
+color: #1bc2ca;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+display: block;
+text-align: center;
+border: 3px solid #1bc2ca;
+margin-top:2rem;
+border-radius: 15px;
+padding: 11px;}
+
+  .connect-link a:hover{
+    background-color: #1bc2ca;
+    color: white;}
+    
+/* gaming sliders  */
+
+.slides-2{width: 100%;
+height: 450px;
+object-fit: cover;}
+
+/* content after slider */
+
+/* .e1{background-color: #1c1a2e;} */
+
+.p-1 p{color: #1bc2ca;
+    font-family: 'Oswald',sans-serif;
+font-size: 1.1rem;
+font-weight: 700;
+margin-top: 3rem;
+margin-left: 40px;}
+
+
+.h-1 h4{color:white;
+margin-left: 30px;
+font-weight: 700;
+font-family:'Oswald',sans-serif;}
+
+
+.icons ul{display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+}
+
+.fa-brands{padding: 17px;
+    margin-top: 3rem;
+}
+
+.e-1 p{ color: aliceblue;
+padding: 22px;
+font-weight: 500;
+font-family: 'Play',sans-serif;
+line-height: 1.6;}
+
+.e-2 p{color: white;
+margin-left:2rem}
+
+.e-3 p{color: white;
+    margin-left: 2rem;
+
+}
+
+
+/* news-box */
+
+.nw h5{color: #1bc2ca;
+margin-top:6rem;
+margin-left: 3rem;
+font-family:'Oswald',sans-serif;
+font-weight: 500;}
+
+.nw h3{color: white;
+margin-left: 2.7rem;
+}
+
+.cont p{color: white;
+margin-left: 2.7rem;
+margin-top: 1.4rem;
+font-weight: 500;}
+
+.r-more a{text-decoration: none;
+color: #1bc2ca;
+font-weight: 500;
+border: 3px solid #1bc2ca;
+padding:10px;
+border-radius: 12px;
+margin-left: 2.5rem;}
+
+.r-more a:hover{color: white;
+background-color: #1bc2ca;
+transition:.5s;}
+
+.imgs img{width:100%;
+border-radius: 40px;
+margin:3rem;
+margin-left: 7rem;
+padding-top: 20px;}
+
+.star h4{color: #1bc2ca;
+text-align: end;
+font-size: 2.4rem;
+cursor: pointer;}
+
+
+/* sponsers  */
+
+.spon-h1 h2{color: white;  
+    text-align: center; 
+    margin-bottom: 4rem;
+    font-family:'Oswald',sans-serif;
+font-weight: 600;
+}
+
+.sp-1 img{display:block;
+margin-right: auto;
+margin-left: auto;
+padding: 15px;}
+
+
+/* reviews  */
+
+.rev-head h2{color: white; 
+text-align: center;
+font-family:'Oswald',sans-serif;
+font-weight: 600;
+margin-bottom: 3rem;
+}
+
+.back-g{
+    width:70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rev-phto{margin-left:auto;
+    margin-right: auto; 
+    padding: 30px;
+display: block;
+border-radius:100%;}
+
+.name h3{color: white; text-align: center;
+    font-family:'Oswald',sans-serif;
+    font-weight: 700;
+padding: 5px;}
+.name h5{color: #1bc2ca; 
+    font-family:'Oswald',sans-serif;
+    font-weight: 600;
+text-align: center;
+padding: 5px;}
+
+
+.about p{color: white;
+text-align: center;
+padding: 30px; 
+font-weight: 500;
+}
+
+/* paid-plan */
+
+.box-1{background-color:#292845;
+border-radius: 25px;
+margin-top: 3rem;}
+
+.price-lable{color: white;
+text-decoration: none;
+font-family: 'Oswald',sans-serif;
+font-size: 20px;
+line-height: 1.2;
+font-weight: 700;
+display: block;
+text-align: center;
+padding: 30px;}
+
+.box-1,.price-lable:hover{color: #1bc2ca;}
+
+.pp {background-color:#3dd0d8;
+}
+
+.pp:hover{background-color: #029ba3;
+transition: .2s;}
+
+.pp-B {background-color: #5c9ddd;;}
+
+.pp-B:hover{background-color: #2d74bb;
+transition: .2s;}
+
+.pp-P{background-color: #7c69e3;}
+
+.pp-P:hover{background-color: #674ef1;
+transition: .2s;}
+
+.rupess-head{text-align: center;
+color: white;
+padding-top:5px;
+font-size: 3rem;
+font-family: 'Oswald',sans-serif;
+font-weight: 600;}
+
+.month{color: white;
+    font-family: 'Oswald',sans-serif;
+    padding: 2px;
+text-align: center;
+font-weight: 700;
+font-size: 1rem;}
+
+.pp-1 p{ color: white;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px;
+}
+.ss-1{color: white;
+width: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 1px;}
+
+.buy-btn{padding: 20px;}
+
+.buy-btn a{color: white;
+    display:block; width:120px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    border-radius: 10px;
+ background-color: #1bc2ca;}
+
+ .buy-btn a:hover{background-color:#02888f;
+    color: white;
+}
+
+/* contact with form */
+
+.contact-head h2{color: white;
+text-align: center;
+font-family: 'Oswald',sans-serif;
+font-weight: 600;
+margin-bottom: 4rem;
+font-size: 2.5rem;}
+
+.cont-head h5{color: white;
+    font-family: 'Oswald',sans-serif;
+font-weight: 800;
+font-size: 35px;}
+
+.cont-head p{color: white;
+    font-family: 'Oswald',sans-serif;
+font-weight: 500;
+padding: 5px;}
+
+.contact-detail-logo ul{display: flex;padding: 10px;
+    list-style-type: none;}
+    .contact-detail-logo li{display: inline-block;
+        margin: 0px 10px 0px 0px;}
+
+    .logo-name{color: white;}
+    .logo-dis{color: white;}
+
+/* FORM START */
+.enq h3{color: white;
+text-align: center;
+font-weight: 700;}
+
+.main-input ul{display: flex;
+    list-style-type: none;
+width: 100%;}
+
+.main-input li{padding: 6px;
+margin-top: 1rem;
+}
+
+.details{width:100%;
+padding: 8px;
+border-radius: 8px;
+background-color: #292845;
+border: none;
+ width: 250px;
+ outline: #029ba3; 
+ 
+ 
+}
+ .details:hover{border: 2px solid #029ba3;
+}
+
+.chat{margin-left:37px;
+background-color: #292845;
+border-radius: 10px;
+border: 8px;
+outline: #029ba3;}
+
+input::placeholder{color:rgb(133, 133, 133);}
+
+.chat:hover{border: 2px solid #029ba3;}
+
+textarea::placeholder{color: rgb(133, 133, 133);
+padding-left: 10px;
+padding-top: 10px;}
+
+input{color: white;} 
+
+textarea{color: white;
+font-size:30px;
+padding-left: 10px;
+padding-top: 10px;  }
+
+.submit{background-color: #1bc2ca;
+border: none;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+display: block;
+color: white;
+font-weight: 600;
+width: 140px; 
+margin-top: 15px;}
+.submit:hover{background-color: #02888f;
+color: white;}
+
+.only-logo ul{display: flex;
+    list-style-type: none;
+    justify-content:center;
+    margin-top: 0px;
+    padding: 0px;
+
+    
+}
+
+
+.lnks{color: white;
+    text-align: center;
+    margin-top: 60px;
+}

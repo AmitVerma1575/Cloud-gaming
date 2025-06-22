@@ -1,0 +1,141 @@
+*{margin: 0px;
+padding: 0px;}
+
+.logo{width: 90px;}
+.navbar-c {color: white;
+text-decoration: none;
+font-size: 30px;
+font-weight: 900;
+font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+.navbar-c:hover{
+color: white;
+}
+
+.btn-s{ color: #1bc2ca;
+text-decoration: none;
+font-weight: 700;
+padding: 10px;
+text-align: center;
+width: 80px;
+border: 3px solid #1bc2ca;
+border-radius: 10px;
+font-weight: 20px;}
+
+.btn-s:hover{
+    background-color: #1bc2ca;
+    color: whitesmoke;
+}
+
+.left-text{padding-top:80px;
+padding-left: 50px;}
+
+.con-txt{color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+.cont{width:25%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.move{color: white;
+font-size: 50px;
+font-weight: 800;
+text-align: center;}
+.contact-info{color: white;
+margin-top: 40px;
+font-weight: 600;
+margin-bottom: 70px;}
+.main-form ul{list-style-type: none;
+display: flex;
+padding-left: 70px;
+width: 100%;}
+.main-form li{ 
+    padding: 6px;
+padding: 10px;}
+
+input::placeholder{color: rgb(138, 138, 138);
+font-weight: 600;}
+.main-form li input{ width: 230px;
+height: 40px;
+background-color: #161429;;
+border-radius: 10px;
+}
+
+ input:hover{border: 2px solid #1bc2ca;}
+ input{color: white;
+padding: 6px;
+outline: #1bc2ca;
+border: none;}
+
+.pass{width:470px !important;
+}   
+
+.btn-submit {display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+padding: 8px;
+border-radius: 10px;
+background-color: #161429;
+color: #1bc2ca;
+font-weight: 800;
+border: 2px solid #1bc2ca;
+text-decoration: none;
+margin-top: 25px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.btn-submit:hover{background-color: #1bc2ca;
+color: white;}
+
+.message{background-color: #161429;
+margin-left: 80px;
+border: transparent;
+outline: #1bc2ca;
+border-radius: 10px;
+color: white;
+padding: 15px;}
+textarea::placeholder{color: rgb(138, 138, 138);
+padding: 10px;}
+
+.message:hover{border: 2px solid #1bc2ca;}
+
+.e-link{
+color: white;
+text-decoration: none;
+font-family: fantasy;
+margin-bottom: 30px;
+}
+
+.active a{color: #1bc2ca !important;
+text-decoration:underline;}
+.E-link{list-style-type:none;
+display: flex;}
+.e-link:hover{color: #1bc2ca;
+text-decoration: underline;}
+.m-link{
+ padding: 20px;   
+}
+
+.company li{
+    padding: 40px;
+
+}
+.c1{
+    display: flex;
+}
+.end{text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    padding-bottom: 20px;}
